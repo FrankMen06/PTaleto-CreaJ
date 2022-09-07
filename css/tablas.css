@@ -1,0 +1,136 @@
+#background{
+    width: 100%;
+    height: 100%;  
+    background: linear-gradient(45deg,rgba(19, 86, 230, 0.85),rgba(238, 214, 2, 0.85));
+}
+
+h1{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+thead{
+    background-color: rgba(0, 89, 255, 0.884);
+}
+
+.table1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(22, 67, 150, 0.329);
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.table2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(22, 67, 150, 0.329);
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.table3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(22, 67, 150, 0.329);
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.table4{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(22, 67, 150, 0.329);
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.table5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(22, 67, 150, 0.329);    
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.table6{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(22, 67, 150, 0.329);
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 60;
+    background-color: rgb(52, 197, 76);
+    text-decoration: none;
+    text-decoration-line: none;
+    border-radius: 10px;
+    border: 0px solid
+}
+
+.btn2 {
+    min-height: 3.125rem;
+    font-weight: 60;
+    background-color: rgb(148, 36, 28);
+    text-decoration: none;
+    text-decoration-line: none;
+    border-radius: 10px;
+    border: 0px solid;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size:15px;
+}
+
+.scroll{
+    overflow-y: scroll;
+}
+
+th{
+ margin-left: 4px;
+}

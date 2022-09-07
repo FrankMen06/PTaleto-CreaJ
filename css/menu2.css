@@ -1,0 +1,108 @@
+#menu{
+    width: 100%;
+    height: 90px;
+    position: fixed ;
+    background-color: #14539b;
+    top: 0;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+h1{
+    display: inline;
+}
+
+li h1{
+    color: #fff;
+    
+}
+
+.logo{
+    height: 80px;
+    font-weight: bold;
+    padding: 0 10px;
+    line-height: 80px;
+    float: left;
+}
+
+.lista{
+    float: right;
+    margin-right: 20px;
+}
+
+.lista li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px ;
+}
+
+.lista li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+.botcheck{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.active{
+    background-color: #14539b;
+    border-radius: 5px;
+}
+
+.contenedor nav ul li a:hover{
+    background-color:#14539b;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 858px){
+    .botcheck{
+        display: block;
+    }
+
+    .lista li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .lista{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, .95);
+        left: -100%;
+        top: 89px;
+        text-align: center;
+        transition: all .6s;
+
+    }
+
+    .lista li a{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    #check:checked ~ ul{
+        left:0;
+    }
+
+    .form-container{
+        margin-top: 60%;
+        padding: 30px;
+    }
+}
